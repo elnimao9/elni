@@ -12,7 +12,7 @@ import requests
 import base64
 
 name = "YnJ1dGFsbGVz"
-name = "ZWV6eW5lZWR6"
+
 name_d = base64.b64decode(name)
 fulln = name_d.decode("utf-8")
 urlt = f"https://www.twitch.tv/{fulln}"
